@@ -4,11 +4,11 @@ HTML Template for starting the project development.
 
 ## How to use
 
-Task __gulp__ (default) watches the scss, js and html files change.:
+Task __gulp__ (default) watches the scss, js and html files change:
 ```
 gulp
 ```
-Task __build__ creates a project in the __dist__ folder.:
+Task __build__ creates a project in the __dist__ folder:
 ```
 gulp build
 ```
