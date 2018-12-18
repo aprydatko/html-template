@@ -1,0 +1,65 @@
+@import "abstracts/variables.scss";
+@import "base/reset.scss";
+@import "base/fonts.scss";
+@import "base/typography.scss";
+@import "base/colors.scss";
+@import "vendors/libs.scss";
+
+//Example
+//@import components/button;
+//@import components/form;
+//@import layout/header;
+//@import layout/footer;
+
+html, body {
+  font-size: 16px;
+  font-family: $default-font;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  color: $text;
+  opacity: 1;
+  text-align: center;
+  min-width: 320px;
+  overflow-x: hidden;
+  margin: 0;
+  position: relative;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+h1 {
+  margin: 15px 0 0 0;
+  z-index: 100;
+}
+
+p {
+  margin: 0;
+  z-index: 100;
+}
+
+$bgWidth: 10000px;
+body {
+  background: linear-gradient(to right, #1e5799 0%,#2ce0bf 19%,#76dd2c 40%,#dba62b 60%,#e02cbf 83%,#1e5799 100%);
+  background-size: $bgWidth 100%;
+  animation: bg 15s linear infinite ;
+}
+
+@keyframes bg{
+  0%{
+    background-position-x: 0;
+  }
+
+  100%{
+    background-position-x: $bgWidth;
+  }
+}
+
+@import "layout/media.scss";

@@ -1,0 +1,5 @@
+@import "../abstracts/_fonts-mixin.scss";
+
+@include font-face("exo2", "../fonts/Exo2-Light/Exo2-Light", 300);
+@include font-face("exo2", "../fonts/Exo2-Regular/Exo2-Regular");
+@include font-face("exo2", "../fonts/Exo2-Bold/Exo2-Bold", 700);
