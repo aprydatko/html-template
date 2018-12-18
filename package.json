@@ -1,7 +1,7 @@
 {
-  "name": "search-films",
+  "name": "html-template",
   "version": "1.0.0",
-  "description": "Application to search for movies.",
+  "description": "HTML template for quick launch.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
